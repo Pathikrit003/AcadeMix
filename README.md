@@ -1,0 +1,2 @@
+# AcadeMix
+Educational app
