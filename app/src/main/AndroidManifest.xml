@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AcadeMix"
+        tools:targetApi="31">
+        <activity
+            android:name=".videosSVIIPCh2"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVIIPCh1"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIIPCh2Answers"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIIPCh2Q2"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIIPCh2Q1"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIIPCh1Answers"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIIPCh1Q2"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIIPCh1Q1"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIICCh2Answers"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIICCh2Q2"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIICCh2Q1"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIICCh1Answers"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIICCh1Q2"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIICCh1Q1"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIICCh2"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIICCh1"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIIPCh2"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIIPCh1"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVIICCh2"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVIICCh1"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVICCh2"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVICCh1"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVIPCh2"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVIPCh1"
+            android:exported="false" />
+        <activity
+            android:name=".ToDoSVII"
+            android:exported="false" />
+        <activity
+            android:name=".ToDoSVI"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVICCh2"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVICCh1"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVICCh2Answers"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVICCh2Q2"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVICCh2Q1"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVICCh1Answers"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVICCh1Q2"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVICCh1Q1"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIPCh2Answers"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIPCh2Q2"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIPCh2Q1"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIPCh1Answers"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIPCh1Q2"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIPCh1Q1"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIPCh2"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIPCh1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotesMainActivity"
+            android:exported="false"
+            android:label="@string/app_name2"
+            android:theme="@style/Theme.Academix" />
+        <activity
+            android:name=".Activity.InsertNotesActivity"
+            android:exported="false"
+            android:label="@string/app_name2"
+            android:theme="@style/Theme.Academix" />
+        <activity
+            android:name=".Activity.UpdateNotesActivity"
+            android:exported="false"
+            android:label="@string/app_name2"
+            android:theme="@style/Theme.Academix" />
+        <activity
+            android:name=".homepageTVIIC"
+            android:exported="false" />
+        <activity
+            android:name=".homepageTVIIP"
+            android:exported="false" />
+        <activity
+            android:name=".homepageTVIC"
+            android:exported="false" />
+        <activity
+            android:name=".homepageTVIP"
+            android:exported="false" />
+        <activity
+            android:name=".teachersubjectselect2"
+            android:exported="false" />
+        <activity
+            android:name=".teacherclassSelect"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIIC"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVIIC"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIIC"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIIP"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVIIP"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIIP"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIC"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVIC"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIC"
+            android:exported="false" />
+        <activity
+            android:name=".quizSVIP"
+            android:exported="false" />
+        <activity
+            android:name=".videosSVIP"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterialSVIP"
+            android:exported="false" />
+        <activity
+            android:name=".teachersubjectselect"
+            android:exported="false" />
+        <activity
+            android:name=".homepageSVIIC"
+            android:exported="false" />
+        <activity
+            android:name=".homepageSVIIP"
+            android:exported="false" />
+        <activity
+            android:name=".homepageSVIC"
+            android:exported="false" />
+        <activity
+            android:name=".homepageSVIP"
+            android:exported="false" />
+        <activity
+            android:name=".studentsubjectselect2"
+            android:exported="false" />
+        <activity
+            android:name=".studentsubjectselect"
+            android:exported="false" />
+        <activity
+            android:name=".teacherselect"
+            android:exported="false" />
+        <activity
+            android:name=".studentselect"
+            android:exported="false" />
+        <activity
+            android:name=".StartingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

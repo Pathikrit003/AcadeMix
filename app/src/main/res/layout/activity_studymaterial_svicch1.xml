@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgchonesm"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="268dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="180dp"
+                android:textColor="@color/black"
+                android:text="Chapter 1: QBasic
+"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black"
+                android:text="QBasic is a programming language that was developed by Microsoft in the 1980s as a simplified version of the BASIC (Beginner's All-purpose Symbolic Instruction Code) programming language. QBasic was designed to be user-friendly and accessible, particularly for beginners and those new to programming. It provided a simple and intuitive environment for writing and running basic programs. QBasic programs were written in a text-based editor and executed within the QBasic interpreter." />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black"
+                android:text="One of the strengths of QBasic was its educational value. Its simplicity and straightforward syntax made it an excellent tool for teaching programming concepts and logic to beginners. QBasic programs were often used to introduce fundamental programming concepts like variables, loops, and decision-making structures." />
+
+            <!-- Add other sections, text views, images, and content as desired -->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

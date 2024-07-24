@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgchonesm"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="268dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="180dp"
+                android:textColor="@color/black"
+                android:text="Chapter 1: EXCEL"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black"
+                android:text="Excel is a widely used spreadsheet program developed by Microsoft. It provides a powerful platform for organizing, analyzing, and manipulating data. With its grid-like interface, Excel allows users to create worksheets containing rows and columns to input and organize data in a tabular format. " />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black"
+                android:text="One of the key strengths of Excel is its ability to perform calculations and automate repetitive tasks. It supports a wide range of mathematical and statistical functions, enabling users to perform calculations on data easily. Formulas and functions can be created to perform complex calculations, link data across multiple worksheets, and generate dynamic results." />
+
+            <!-- Add other sections, text views, images, and content as desired -->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

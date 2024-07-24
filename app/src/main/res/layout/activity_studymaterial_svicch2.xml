@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgchonesm"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:text="Chapter 2: MS Word"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:text="Microsoft Word, commonly referred to as MS Word, is a powerful and widely used word processing software developed by Microsoft. It is a part of the Microsoft Office suite, which includes several other popular productivity applications."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Section 1: "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:text="MS Word revolutionized the way we work with text-based documents, offering a user-friendly interface and a range of formatting options that enhance document appearance and readability. With MS Word, users can effortlessly apply font styles, adjust margins, create tables, insert images and shapes, add headers and footers, and much more. "
+                android:textColor="@color/black" />
+
+            <!-- Add other sections, text views, images, and content as desired -->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

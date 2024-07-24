@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgchonesm"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="268dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="180dp"
+                android:textColor="@color/black"
+                android:text="Chapter 2: HTML"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black"
+                android:text="HTML, short for Hypertext Markup Language, is the standard markup language used for creating web pages and applications. It serves as the backbone of the World Wide Web, providing a structured framework for organizing and presenting content on the internet. HTML uses tags to define the structure and elements of a web page, such as headings, paragraphs, images, links, forms, and more." />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black"
+                android:text="The beauty of HTML lies in its simplicity and versatility. It allows content creators and developers to structure information hierarchically, making it easy to navigate and understand for both humans and machines. HTML is also compatible with other web technologies like CSS (Cascading Style Sheets) and JavaScript, allowing for enhanced styling and interactivity. " />
+
+            <!-- Add other sections, text views, images, and content as desired -->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

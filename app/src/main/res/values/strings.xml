@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name1">AcadeMix</string>
+    <string name="app_name2">NOTES</string>
+    <string-array name="education_options">
+        <item>SELECT YOUR DEGREE</item>
+        <item>GRADUATE</item>
+        <item>NOT GRADUATE</item>
+        <item>MASTERS</item>
+        <item>PHD</item>
+        <!--teacher degree select -->
+
+    </string-array>
+    <string-array name="class_option2">
+        <item>SELECT THE CLASS</item>
+        <item>CLASS VI</item>
+        <item>CLASS VII</item>
+
+
+        <!-- teacher class select-->
+    </string-array>
+
+    <string-array name="subject_option3">
+        <item>CHOOSE THE SUBJECT</item>
+        <item>PHYSICS</item>
+        <item>COMPUTER</item>
+
+
+        <!-- teacher subject select class vi -->
+    </string-array>
+    <string-array name="subject_option4">
+        <item>CHOOSE THE SUBJECT</item>
+        <item>PHYSICS</item>
+        <item>COMPUTER</item>
+
+
+        <!-- teacher subject select class vii -->
+    </string-array>
+    <string-array name="class_option">
+        <item>SELECT YOUR CLASS</item>
+        <item>CLASS VI</item>
+        <item>CLASS VII</item>
+
+
+        <!-- student class select-->
+    </string-array>
+    <string-array name="subject_option1">
+        <item>CHOOSE YOUR SUBJECT</item>
+        <item>PHYSICS</item>
+        <item>COMPUTER</item>
+
+
+        <!-- student subject select class vi -->
+    </string-array>
+
+    <string-array name="subject_option2">
+        <item>CHOOSE YOUR SUBJECT</item>
+        <item>PHYSICS</item>
+        <item>COMPUTER</item>
+
+
+        <!-- student subject select class vii -->
+    </string-array>
+
+
+</resources>
